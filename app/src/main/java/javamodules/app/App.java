@@ -3,13 +3,12 @@
  */
 package javamodules.app;
 
-import org.apache.commons.collections.list.UnmodifiableList;
 import java.util.Arrays;
 import static javamodules.utilities.JoinUtils.join;
 
 public class App {
     public static void main(String[] args) {
-        var list = UnmodifiableList.decorate(Arrays.asList("Hello", "World"));
+        var list = Arrays.asList("Hello", "World");
         System.out.println(join(list));
     }
 }

@@ -4,7 +4,6 @@
 
 plugins {
     id 'application'
-    id("de.jjohannes.extra-java-module-info") version "0.3"
     id 'com.github.johnrengelman.shadow' version '6.1.0'
 }
 
